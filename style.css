@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+*
+{
+	font-family: 'poppins';
+	font-weight: 500 !important;
+
+}
+body
+{
+	background-color: #cacaca !important;
+
+}
+/*.signupcontainer
+{
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7)!important;
+background-image: url("./images/background1.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: right;
+}*/
+
+.header img
+{
+  width: 70px !important;
+}
+
+@media (max-width: 500px) {
+  .header img {
+
+display: none !important;
+
+  }
+}
+@media (max-width: 350px) {
+  .signupcontainer{
+
+background-image: none !important;
+
+  }
+}
+
+.signupcontainer input
+{
+
+	box-shadow: none !important;
+}
+.signupcontainer input:focus
+{
+	border-color: #cacaca !important;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3)!important;
+	transition: all 0.5s ease;
+}
+.signupcontainer button:hover
+{
+	background-color: #e5e6eb !important;
+	color: black !important;
+	border: none;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.7)!important;
+	transition: all 0.5s ease;
+}
+.error
+{
+	color: red;
+	font-size:14px !important;
+}
+.logincontainer
+{
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7)!important;
+
+}
+.logincontainer input
+{
+	box-shadow: none !important;
+}
+.logincontainer input:focus
+{
+	border-color: #cacaca !important;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3)!important;
+	transition: all 0.5s ease;
+}
+.logincontainer .shoppingpng img{
+
+	width: 500px !important;
+	height: 300px !important;
+}
+.logincontainer button:hover
+{
+	background-color: #e5e6eb !important;
+	color: black !important;
+	border: none;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.7)!important;
+	transition: all 0.5s ease;
+}
+@media (max-width: 992px) {
+.logincontainer .shoppingpng{
+
+display: none !important;
+
+  }
+}
+
+.navbar .navbar-brand img
+{
+
+width:25px!important;
+
+}
+.navbar .navbar-brand a
+{
+
+text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+
+}
+
+.dropdown-menu.show
+{
+
+}
+.navbar .e-ration-icon i
+{
+	border-radius: 25px !important;
+
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	padding: 5px;
+}
+
+.navbar .e-ration-icon i:hover
+{
+color:white !important;
+background-color: #93c47d !important;
+transition: all 0.6s ease-in-out !important;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+
+}
+.navbar .e-ration-nav a
+{
+	border-radius: 5px !important;
+
+}
+
+.navbar .e-ration-nav a:hover{
+
+	color: #fff !important;
+	background-color:#93c47d !important;
+	transition: all 0.6s ease-in-out !important;
+	padding: 10px !important;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+#e-ration-home {
+  position: relative;
+  height: 75vh !important;
+  min-height: 25rem !important;
+  width: 100% !important;
+  overflow: hidden;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+#e-ration-home video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+#e-ration-home .e-ration-home {
+  position: relative;
+  z-index: 1;
+
+}
+#e-ration-home .e-ration-home h1,h4
+{
+text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#e-ration-home .e-ration-home .btn
+{
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+font-size: 16px !important;
+}
+
+#e-ration-home .e-ration-home .btn:hover
+{
+box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
+background-color:#93c47d;
+color: #ffffff !important;
+transition: all 0.6s ease-in-out ;	
+}
+
+@media (min-width: 452px){
+#e-ration-home .e-ration-home .row .col {
+text-align: center !important;
+}
+}
+
+@media (max-width: 452px){
+#e-ration-home .e-ration-home .row .col,h1,h4 {
+font-size: 18px !important;
+text-align: center;
+}
+}
+
+/*for bookslot*/
+#bookslot__delivery .bookslot__delivery .bookslot select
+{
+	box-shadow: none;
+}
+
+#bookslot__delivery .bookslot__delivery .bookslot select:focus
+{
+	border-color: #cacaca !important;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4)!important;
+	transition: all 0.5s ease;
+}
+#bookslot__delivery .bookslot__delivery .bookslot input
+{
+	box-shadow: none;
+}
+
+#bookslot__delivery .bookslot__delivery .bookslot input:focus
+{
+	border-color: #cacaca !important;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4)!important;
+	transition: all 0.5s ease;
+}
+/*for Delivery*/
+#bookslot__delivery .bookslot__delivery .delivery select
+{
+	box-shadow: none;
+}
+
+#bookslot__delivery .bookslot__delivery .delivery select:focus
+{
+	border-color: #cacaca !important;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4)!important;
+	transition: all 0.5s ease;
+}
+#bookslot__delivery .bookslot__delivery .delivery input
+{
+	box-shadow: none !important;
+}
+
+#bookslot__delivery .bookslot__delivery .delivery input:focus
+{
+	border-color: #cacaca !important;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4)!important;
+	transition: all 0.5s ease;
+}
+
+#e-ration-dashboard .e-ration-dashboard button:hover
+{
+	background-color:#93c47d !important;
+	border: none!important;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4)!important;
+	transition: all 0.5s ease-in-out;
+}
+
+#e-ration-dashboard .e-ration-dashboard .dashboard-view a
+{
+font-size: 16px !important;
+}
+
+#e-ration-dashboard .e-ration-dashboard h3,h1
+{
+text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+#e-ration-contact_us .e-ration-contact_us .contact:hover
+{
+	text-shadow:0px 0px 10px rgba(0, 0, 0, 0.6);
+	color: black !important;
+	padding: 5px !important;
+	transition: all 0.6s ease-in-out ;
+}
+
+#e-ration-contact_us .e-ration-contact_us .about:hover
+{
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+ background-color:#eeeada !important;
+ border-radius: 5px !important;
+ color: black !important;
+ padding:5px !important;
+ transition: all 0.6s ease-in-out ;
+}
+#e-ration-contact_us .e-ration-contact_us .social-media:hover
+{
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+ background-color:#eeeada !important;
+ border-radius: 5px !important;
+ color: black !important;
+ padding:5px !important;
+ transition: all 0.6s ease-in-out ;
+}
+
+hr{
+	margin:0 !important;
+}
+
+#e-ration-footer footer a:hover
+{
+	text-shadow:0px 0px 10px rgba(0, 0, 0, 0.6);
+	color: black !important;
+	padding: 5px !important;
+	transition: all 0.6s ease-in-out ;
+}
+
+
+	
+
+
+
+
+
+
+
+
+
